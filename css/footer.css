@@ -1,0 +1,23 @@
+footer {
+    margin-top: 160px;
+}
+
+.media-icons {
+    display: flex
+}
+
+.media-icons ul {
+    display: flex;
+    margin: auto;
+    gap: 16px;
+}
+
+.media-icons ul li {
+    opacity: 0.48;
+    transition: 0.48s
+}
+
+.media-icons ul li:hover {
+    opacity: 0.9;
+    transition: 0.16s
+}
