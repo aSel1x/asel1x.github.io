@@ -13,7 +13,6 @@
 .ex-card {
     display: flex;
     flex-direction: column;
-    height: 197px;
     border: 1px solid rgba(255, 255, 255, 0.8);
     border-radius: 16px;
     transition: 0.72s;
