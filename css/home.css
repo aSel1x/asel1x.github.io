@@ -1,5 +1,5 @@
 .home {
-    margin-top: 48px;
+    margin-top: 160px;
 }
 
 .home-text {
@@ -23,7 +23,7 @@
     font-family: "Akzidenz-Grotesk Pro Med", sans-serif;
 
     margin-top: 32px;
-    transition: 0.32s;
+    transition: 0.72s;
 }
 .home-button:hover { transform: scale(1.08);  transition: 0.32s; }
 

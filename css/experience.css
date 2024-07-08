@@ -1,15 +1,66 @@
-.ex-card-holder {
+.experience {
     margin-top: 160px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px 5px;
-    justify-content: center;
+}
+.experience h4{opacity: 0.9}
+
+.ex-card-holder {
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
 }
 
 .ex-card {
-    border: 1px solid green;
-    background-color: lime;
-    flex: 1 1 auto;
-    max-width: 100px;
-    height: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 197px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+    transition: 0.72s;
+}
+
+.ex-card:hover {
+    border: 1px solid rgba(255, 255, 255, 1);
+    transition: 0.32s;
+    .ex-description {opacity: 0.64; transition: 0.64s};
+}
+.ex-content {flex: 1}
+
+.ex-title {
+    display: inline-flex;
+    margin: 16px 16px 0 16px;
+    opacity: 0.9;
+    transition: 1.08s;
+}
+
+.ex-title:hover {
+    opacity: 1;
+    transition: 0.64s;
+    box-shadow: 0 1px 0 white;
+}
+
+.ex-description {
+    margin: 8px 16px 16px 16px;
+    opacity: 0.48;
+    transition: 1.08s;
+}
+
+.collaborators {
+    display: inline-flex;
+    margin: 0 16px 16px 16px;
+}
+
+.collaborators p {
+    opacity: 0.48
+}
+
+.collaborators a {
+    opacity: 0.48;
+    transition: 0.64s;
+}
+
+.collaborators a:hover {
+    opacity: 0.64;
+    box-shadow: 0 1px 0 white;
+    transition: 0.64s;
 }
