@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Poeboto",
+    "url": "https://poeboto.ru",
+    "description": "An application designed to manage userbots in telegram, in order to perform scoring of subscribers, views, reactions, comments, etc.",
+    "collaborators": [
+      {
+        "name": "FastCode",
+        "url": "https://fast-code.pro"
+      }
+    ]
+  },
+  {
+    "title": "AvTools",
+    "url": "https://panel.av-tools.net",
+    "description": "An application designed to manage Avito accounts, allowing you to increase sales by automating and recycling routine processes.",
+    "collaborators": [
+      {
+        "name": "FastCode",
+        "url": "https://fast-code.pro"
+      }
+    ]
+  }
+]

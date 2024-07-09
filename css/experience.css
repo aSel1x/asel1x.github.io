@@ -10,6 +10,12 @@
     gap: 32px;
 }
 
+@media screen and (max-width: 768px) {
+    .ex-card-holder {
+        grid-template-columns: 1fr;
+    }
+}
+
 .ex-card {
     display: flex;
     flex-direction: column;
@@ -44,22 +50,22 @@
     transition: 1.08s;
 }
 
-.collaborators {
+.ex-collaborators {
     display: inline-flex;
     margin: 0 16px 16px 16px;
 }
 
-.collaborators p {
+.ex-collaborators p {
     opacity: 0.48
 }
 
-.collaborators a {
+.collaborators-list a {
     opacity: 0.48;
-    transition: 0.64s;
+    transition: 0.64s
 }
 
-.collaborators a:hover {
+.collaborators-list a:hover {
     opacity: 0.64;
-    box-shadow: 0 1px 0 white;
     transition: 0.64s;
+    text-decoration: underline;
 }
